@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Raízes no povo, representatividade para transformar direitos em realidade.</title>
+    <style>
+      :root {
+        color-scheme: light;
+        background: #efedf4;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        min-height: 100vh;
+        min-height: 100dvh;
+        overflow: hidden;
+        background: #efedf4;
+      }
+
+      main {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+      }
+
+      object {
+        display: block;
+        width: min(100%, 1024px);
+        height: 100vh;
+        height: 100dvh;
+        border: 0;
+        background: #efedf4;
+      }
+
+      .fallback {
+        padding: 1.5rem;
+        color: #252d46;
+        font: 1rem/1.5 system-ui, sans-serif;
+        text-align: center;
+      }
+
+      .fallback a {
+        color: #e8524c;
+      }
+    </style>
+  </head>
+  <body>
+    <main aria-label="Documento original">
+      <object
+        data="./raizes-no-povo.pdf#view=FitH"
+        type="application/pdf"
+        aria-label="Raízes no povo, representatividade para transformar direitos em realidade."
+      >
+        <p class="fallback">
+          Seu navegador não conseguiu exibir o documento.
+          <a href="./raizes-no-povo.pdf">Abra o PDF original</a>.
+        </p>
+      </object>
+    </main>
+  </body>
+</html>
